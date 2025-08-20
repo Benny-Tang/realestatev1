@@ -1,2 +1,3 @@
-def renter_agent(message: str) -> str:
-    return f"🔑 RenterAgent: processing rental query '{message}'"
+class RenterAgent:
+    def run(self, message: str) -> str:
+        return f"🔑 RenterAgent: Finding rentals based on '{message}'"

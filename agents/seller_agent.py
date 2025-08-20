@@ -1,2 +1,4 @@
-def seller_agent(message: str) -> str:
-    return f"🏠 SellerAgent: assisting seller with '{message}'"
+class SellerAgent:
+    def run(self, message: str) -> str:
+        return f"📢 SellerAgent: Listing property with details '{message}'"
+
