@@ -1,105 +1,48 @@
-# 🏡 RealEstateV1 – Autonomous Real Estate Platform
+# 🏡 RealEstateV1 — 三國計劃 (Battle Plan)
 
-## 🚀 Vision
-RealEstateV1 is an **autonomous AI-driven real estate platform** where buyers, sellers, and renters simply register — and AI agents handle the rest.  
-Our goal is to **redefine real estate transactions** by automating tedious processes such as property listings, buyer–seller matching, negotiations, and predictive insights.
-
----
-
-## ✨ Features (Planned)
-- 🤖 **AI Agents** for buyers, sellers, and renters.
-- 🔎 Property search and recommendation.
-- 📊 Predictive analytics for pricing and demand.
-- 📑 Document preparation & deal closing automation.
-- 🔐 Secure, privacy-first design.
-- ☁️ Cloud-ready for scaling to production.
+An experimental **multi-agent autonomous system** for the real estate domain.  
+This is the **MVP playground** — syncing between **Local + GitHub + Hugging Face** deployment.  
+Later, this evolves into a full **autonomous real estate platform**.
 
 ---
 
-## 🛠️ Tech Stack
-- **Python 3.10+**
-- **Gradio** – interactive UI for prototyping
-- **ZhipuAI GLM** (with option to plug into multiple LLMs)
-- **FastAPI / Uvicorn** (planned backend services)
-- **Cloud deployment**: initially free-tier, scalable for growth
+## ⚔️ The Nine Agents — Our 三国 Battle Plan
+Inspired by 《三國演義》 *Romance of the Three Kingdoms*.
+
+Each “general” (agent) takes charge of a battlefield (domain task).  
+Names are in **English** with **Chinese title (括号内)**.
+
+### 🏯 Section I — Market Intelligence (蜀 Shu)
+1. **Scout Agent (探子)** — scans new property listings, market signals.  
+2. **Strategist Agent (軍師)** — analyzes trends, predicts values.  
+3. **Messenger Agent (使者)** — communicates insights to other agents.
+
+### 🛡️ Section II — Customer Operations (魏 Wei)
+4. **Matchmaker Agent (紅娘)** — pairs buyers, sellers, renters.  
+5. **Negotiator Agent (說客)** — handles price discussions, conditions.  
+6. **Closer Agent (將軍)** — finalizes deals, ensures agreements.
+
+### ⚡ Section III — Backend Autonomy (吳 Wu)
+7. **Knowledge Agent (智者)** — keeps memory of users, properties.  
+8. **Compliance Agent (律師)** — checks legal & financial rules.  
+9. **Predictor Agent (先知)** — forecasts demand, risks, ROI.
 
 ---
 
-## 📂 Repository Structure
-```
-
-realestatev1/
-├── agents/          # Agent blueprints & implementations
-├── app/             # Main application code
-├── tests/           # Unit and integration tests
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── main.py          # Entry point
-
-````
+## 🌐 Deployment Map
+- **Local**: Development & testing via PyCharm.  
+- **GitHub**: Version control + history of our battles.  
+- **Hugging Face Spaces**: MVP demo battleground (⚔️ live agents soon).  
+- **Future Cloud**: scalable fortress for production autonomy.
 
 ---
 
-## ⚙️ Setup & Run Locally
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/Benny-Tang/realestatev1.git
-   cd realestatev1
-````
-
-2. **Create virtual environment**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate      # Windows
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the app**
-
-   ```bash
-   python main.py
-   ```
-
-   The app will start locally (by default on `http://127.0.0.1:7860`).
-
----
-
-## 📌 Roadmap
-
-* [ ] Core agent design (buyers, sellers, renters)
-* [ ] Property listing + matching
-* [ ] Predictive pricing model
-* [ ] Secure user registration/login
-* [ ] Full end-to-end autonomous deal flow
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – free to use, modify, and distribute.
-
----
-
-## 🤝 Contribution
-
-We welcome ideas and collaboration!
-Feel free to open issues or PRs, or discuss ideas in the repo.
-
----
-
-## 🧭 Status
-
-🚧 **Early-stage prototype** — currently exploring multi-agent architecture.
-Future versions will move towards production-ready autonomous real estate transactions.
+## 🛠️ Run MVP Locally
+```bash
+git clone https://github.com/Benny-Tang/realestatev1.git
+cd realestatev1
+pip install -r requirements.txt
+python app.py
 
 ```
 
